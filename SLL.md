@@ -39,7 +39,21 @@ void deleteFront()
     node *temp=head;
     head=head->link;
     free(temp);
-
+}
+void insertend(int d)
+{
+    node* new=memalloc(d);
+    if(head==NULL)
+    {
+        head=new;
+        return;
+    }
+    node *temp=head;
+    while(temp->link!=NULL)
+    {
+        temp=temp->link;
+    }
+    temp->link=new;
 }
 void deleteend()
 {
@@ -103,21 +117,7 @@ void insertAtPosition(int d){
     new->link = temp->link;
     temp->link = new;
 }
-void insertend(int d)
-{
-    node* new=memalloc(d);
-    if(head==NULL)
-    {
-        head=new;
-        return;
-    }
-    node *temp=head;
-    while(temp->link!=NULL)
-    {
-        temp=temp->link;
-    }
-    temp->link=new;
-}
+
 void display()
 {
     printf("The List of Elements are : ");
@@ -149,4 +149,5 @@ int main()
 
     return 0;
 }
+```
 ```
