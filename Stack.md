@@ -223,3 +223,15 @@ int main() {
 }
 
 ```
+
+Write a C program to check if a given string of parentheses is **balanced**. The string may contain the following types of brackets: `()`, `[]`, and `{}`. A string is considered balanced if:
+1. Every opening bracket has a corresponding closing bracket.
+2. The brackets are closed in the correct order.
+
+### Example Input and Output
+
+- **Input**: `{[()]}`
+  - **Output**: Balanced
+
+- **Input**: `[(])`
+  - **Output**: Not Balanced
