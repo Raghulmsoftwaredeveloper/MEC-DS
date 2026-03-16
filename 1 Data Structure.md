@@ -1,6 +1,8 @@
+# Data Structure and Algorithms
+
 **Data Structures and Algorithms (DSA) in C** is the study of how to **organize data (Data Structures)** and **process data efficiently (Algorithms)** using the **C Programming Language**.
 
-Since you have been practicing many C programs like stacks, queues, linked lists, sorting, etc., understanding DSA deeply will help you write **optimized and efficient programs**.
+Understanding DSA deeply will help you write **optimized and efficient programs**.
 
 ---
 
